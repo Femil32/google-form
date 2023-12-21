@@ -10,11 +10,9 @@ import { Fragment } from "react";
 const Router = () => {
   return (
     <Fragment>
-      <HashRouter>
-        <AuthProvider>
-          <Routes />
-        </AuthProvider>
-      </HashRouter>
+      <AuthProvider>
+        <Routes />
+      </AuthProvider>
       <ToastContainer
         position="top-right"
         autoClose={3000}

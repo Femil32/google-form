@@ -1,6 +1,5 @@
 {
   "name": "google-form",
-  "homepage": "https://vkaswin.github.io/google-form",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
