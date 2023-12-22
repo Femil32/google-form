@@ -56,7 +56,7 @@ const Header = ({
           <i
             id="preview-form"
             className="bx-show"
-            onClick={() => window.open(`#/form/${formId}/view`)}
+            onClick={() => window.open(`/form/${formId}/view`)}
           ></i>
           <ToolTip selector="#preview-form">Preview</ToolTip>
           <Avatar userName={user?.name} logout={logout} />
